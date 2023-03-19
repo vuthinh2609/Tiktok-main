@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    // margin-top: 60px;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.container {
+    display: flex;
+    width: 100vw;
+    max-width: 1150px;
+    padding: 0 var(--defaul-layout-horizontel-spacer);
+    margin-top: var(--defaul-layout-header-height);
+    flex: 1 1 auto;
+    justify-content: space-between;
+}
+.content {
+    flex: 1;
+    max-width: 692px;
+    margin: 0 16px 0 390px;
+    padding: 24px 0;
+}

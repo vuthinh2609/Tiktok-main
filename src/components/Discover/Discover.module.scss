@@ -1,0 +1,28 @@
+.wrapper {
+    font-weight: 500;
+    padding: 16px 0;
+    position: relative;
+    border-top: 1px solid #1618231f;
+    .btn {
+        margin-left: 0;
+        margin-right: 6px;
+    }
+}
+.label {
+    padding: 8px;
+    font-weight: 600;
+    color: #161823bf;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 8px;
+}
+.btn {
+    margin-bottom: 12px;
+    margin-left: 0;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out 0s;
+}

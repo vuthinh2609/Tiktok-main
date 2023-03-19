@@ -1,0 +1,51 @@
+.footer {
+    padding-left: 8px;
+    border-top: 1px solid #1618231f;
+}
+.label {
+    padding: 8px;
+    font-weight: 600;
+    color: #161823bf;
+    font-size: 1.6rem;
+}
+.footer-container {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+}
+.group-container {
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+.item {
+    color: rgba(22, 24, 35, 0.5);
+    margin-right: 6px;
+}
+.more {
+    cursor: pointer;
+}
+
+.end {
+    background-color: #fff;
+}
+.more-end {
+    text-decoration: none;
+    width: 160px;
+    background-color: var(--white-color) !important;
+
+    a {
+        &:hover {
+            color: red;
+            text-decoration: none;
+        }
+    }
+}

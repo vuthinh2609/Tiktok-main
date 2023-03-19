@@ -1,0 +1,51 @@
+.wrapper {
+    width: 356px;
+    position: fixed;
+    padding: 20px 0 26px 8px;
+    margin-left: -18px;
+    overflow-y: scroll;
+    min-height: 100%;
+    top: 0;
+    bottom: 0;
+    margin-top: var(--defaul-layout-header-height);
+
+    &:hover {
+        transition: opacity 2s ease;
+    }
+
+    &:not(:hover)::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.05);
+    }
+}
+.login-container {
+    .btn {
+        margin: 22px 0;
+    }
+}
+// Reponsive
+@media (max-width: 1071px) {
+    .inner-fixed {
+        border-right: 1px solid var(--background-color-12);
+        box-shadow: 0px 2px 8px rgb(0 0 0 / 6%);
+    }
+
+    .content {
+        padding-top: 12px;
+    }
+
+    .w-1071 {
+        display: none;
+    }
+    .login-container {
+        display: none;
+    }
+}
